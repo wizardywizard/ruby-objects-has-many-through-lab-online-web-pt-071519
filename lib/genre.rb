@@ -20,7 +20,11 @@ attr_accessor :name
   end
   
   def artists 
-    
+     artist = []
+     songs.each do |song|
+      artist << song.artist 
+     end
+     artist
   end
   
 end
