@@ -24,8 +24,11 @@ class Patient
   end
   
   def doctors
-     Appointment.all.select do |doc| 
-      doc.patient == self
+     doctor = []
+    appointments.each do |doc|
+      doctor << doc.doctor
+    end
+    doctor
   end
   
 end
