@@ -15,7 +15,7 @@ class Artist
   
   def songs
     @song.all.select do |name| 
-      if song == Song.all
+      if name == Song.all
         song.name
       end
     end
