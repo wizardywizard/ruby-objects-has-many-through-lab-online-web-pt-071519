@@ -14,7 +14,9 @@ class Artist
   end
   
   def songs
-    @song.select {|name| name}
+    @song.select do |name| 
+      
+    end
   end
   
   def new_song(name, genre)
