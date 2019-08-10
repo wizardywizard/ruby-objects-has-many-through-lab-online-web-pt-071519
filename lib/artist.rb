@@ -13,7 +13,7 @@ class Artist
     @@all
   end
   
-  def songs(name, song, genre)
+  def songs
   end
   
   def new_song(name, genre)
