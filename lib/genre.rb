@@ -18,7 +18,7 @@ attr_accessor :name
     end
   end
   
-  def artist 
+  def artists 
     
   end
   
