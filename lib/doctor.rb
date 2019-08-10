@@ -26,7 +26,7 @@ class Doctor
   def patients
     patient = []
     appointments.each do |app|
-      patient << app.patients 
+      patient << app.patient 
     end
     patient
   end
