@@ -13,7 +13,7 @@ class Doctor
     @@all
   end
   
-  def appointment
+  def appointments
     Appointment.all.select do |time| 
     time.date == self
     end
