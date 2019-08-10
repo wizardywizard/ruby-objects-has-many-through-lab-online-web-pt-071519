@@ -19,7 +19,7 @@ class Patient
   
   def appointments
       Appointment.all.select do |time| 
-    time.patient == self
+      time.patient == self
     end
   end
   
