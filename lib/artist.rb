@@ -17,6 +17,7 @@ class Artist
     @song.select do |name| 
       if name == self.name
         song.name
+      end
     end
   end
   
