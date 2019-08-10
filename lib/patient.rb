@@ -18,7 +18,8 @@ class Patient
   end
   
   def appointments
-    
+      Appointment.all.select do |time| 
+    time.patient == self
   end
   
   def doctors
